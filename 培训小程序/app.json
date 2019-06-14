@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e54847",
+    "navigationBarTitleText": "英语培训",
+    "navigationBarTextStyle": "#FFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/title.png",
+        "selectedIconPath": "images/title1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "更多",
+        "iconPath": "images/more.png",
+        "selectedIconPath": "images/more1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "用户",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user1.png"
+      }
+    ]
+  }
+}

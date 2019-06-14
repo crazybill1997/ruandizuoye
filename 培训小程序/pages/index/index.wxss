@@ -1,0 +1,112 @@
+page{
+  background-color: white;
+}
+.topNav{
+  display: flex;
+}
+.topNav>view{
+  width: 50%;
+  font-size: 32rpx;
+  border-bottom: 3rpx solid lightgray;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topNav>view.active{
+  color: red;
+  border-color: red;
+}
+
+
+.title>image{
+  width: 100%;
+  
+}
+.title>.t_describe1{
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+
+.articleView{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  top: 83rpx;
+}
+
+image{
+  position: relative;
+  
+}
+.bnt{
+  display: flex;
+  background-color: lightgray;
+  margin-top: -220rpx;
+}
+.bnt1{
+  background-color: #e54847;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+  color: white;
+  width: 40%;
+   display: flex;
+  align-items: center; /*上下居中*/
+  justify-content: center;  /*左右居中*/
+}
+.bnt2{
+  background-color: #e54847;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+  color: white;
+  width: 40%;
+   display: flex;
+  align-items: center; /*上下居中*/
+  justify-content: center;  /*左右居中*/
+}
+
+.btn3{
+  display: flex;
+  margin-top: 80px;
+}
+.btn3>text{
+  display: flex;
+  font-size: 30rpx;
+  width: 100rpx;
+}
+
+
+form{  
+  width: 310px;  
+  height: 240px;  
+  line-height: 40px;  /* border: 1px solid red;  */
+  }
+input{  
+    border: 1px solid #ccc;  
+    width: 300px;  
+    height: 40px;
+    margin-left: 20rpx;
+    }
+.button{  
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: centert;
+  }
+.header text{
+    font-size: 25px;  
+    color: #666;
+  }
+form text{  
+  font-size: 20px;  
+  color: #666;
+  }
+.fpwd{  
+  margin-top: 200px;
+  }
+.fpwd text{  
+  color: #ccc;  
+  font-size: 18px;
+}
